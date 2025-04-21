@@ -1,0 +1,11 @@
+host: go.augendre.info
+
+modules:
+  - path: /fatcontext
+    vcs: git
+    repo-url: https://github.com/Crocmagnon/fatcontext
+  - path: /arangolint
+    vcs: git
+    repo-url: https://github.com/Crocmagnon/arangolint
+
+
