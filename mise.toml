@@ -1,2 +1,0 @@
-[tools]
-"go:go.essaim.dev/modgen/cmd/modgen" = "latest"

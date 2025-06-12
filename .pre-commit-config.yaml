@@ -6,5 +6,5 @@ repos:
         language: golang
         additional_dependencies:
           - go.essaim.dev/modgen/cmd/modgen@latest
-        entry: modgen -config="modgen.yaml" -target="pages/"
+        entry: modgen -config="modgen.yaml" -target="./"
 
