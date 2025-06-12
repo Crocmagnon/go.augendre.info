@@ -8,3 +8,12 @@ repos:
           - go.essaim.dev/modgen/cmd/modgen@latest
         entry: modgen -config="modgen.yaml" -target="./"
 
+  -   repo: https://github.com/pre-commit/pre-commit-hooks
+      rev: v5.0.0
+      hooks:
+        -   id: check-merge-conflict
+        -   id: check-yaml
+        -   id: end-of-file-fixer
+            exclude_types: [html]
+        -   id: trailing-whitespace
+            exclude_types: [html]
