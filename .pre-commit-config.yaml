@@ -1,0 +1,10 @@
+repos:
+  - repo: local
+    hooks:
+      - id: modgen
+        name: modgen
+        language: golang
+        additional_dependencies:
+          - go.essaim.dev/modgen/cmd/modgen@latest
+        entry: modgen -config="modgen.yaml" -target="pages/"
+
