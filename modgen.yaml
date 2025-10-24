@@ -7,3 +7,6 @@ modules:
   - path: /arangolint
     vcs: git
     repo-url: https://github.com/Crocmagnon/arangolint
+  - path: /configstore-refer
+    vcs: git
+    repo-url: https://codeberg.org/Crocmagnon/configstore-refer
