@@ -10,3 +10,6 @@ modules:
   - path: /configstore-refer
     vcs: git
     repo-url: https://codeberg.org/Crocmagnon/configstore-refer
+  - path: /free-mobile-sms-mcp
+    vcs: git
+    repo-url: https://github.com/Crocmagnon/free-mobile-sms-mcp
